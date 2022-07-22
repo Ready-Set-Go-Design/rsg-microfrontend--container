@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 function MF({ name, host, history, document, window }) {
-  const [isLoaded, setIsLoaded] = React.useState(false);
   const scriptId = `micro-frontend-script-${name}`;
 
   const renderMicroFrontend = () => {
